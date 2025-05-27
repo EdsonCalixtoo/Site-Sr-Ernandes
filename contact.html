@@ -3,12 +3,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="HurrayTheme">
-    <meta name="description" content="Skyre - Building & Construction Services Html Template">
+    
     <!--============= Page title ============ -->
-    <title>Skyre - Building & Construction Services Html Template </title>
+    <title>CCE CONSTRUÇÃO CIVIL </title>
     <!--===== Favcion =====-->
-    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="shortcut icon" href="images/logotransp (1).png">
     <!--===== Bootstrap min.css =====-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!--===== All Min Css =====-->
@@ -49,11 +48,7 @@
             </div>
         </div>
     </div>
-
-    <!--===== Mouse Cursor Start =====-->
-    <div class="mouse-cursor cursor-outer"></div>
-    <div class="mouse-cursor cursor-inner"></div>
-
+   
     <!--===== Back To Top Start =====-->
     <button id="back-top" class="back-to-top">
         <i class="fa-solid fa-chevron-up"></i>
@@ -131,6 +126,7 @@
         </div>
     </header>
 
+
     <!--===== Mobilemenu    S T A R T =====-->
     <div class="mobile-offcanvas">
         <div class="mobile-offcanvas-wrapper">
@@ -148,20 +144,16 @@
 
                 </nav>
             </div>
-
-
-
-
-
+ 
 
             <div class="mobile-offcanvas-info mb-50">
-                <h4 class="mobile-offcanvas-sm-title">information</h4>
-                <span><a href="">+55 (19)9 9919-5625</a></span>
-                <span><a href=""> CCEADM@GMIAL.Com</a></span>
-                <span><a href="">Campinas-SP, Brasil</a></span>
+                <h4 class="mobile-offcanvas-sm-title">Informação</h4>
+                <span><a href="">19 9919-5625</a></span>
+                <span><a href=""> CCCE@ccecontrucaocivil.com.br</a></span>
+                <span><a href="">Campinas Brasil </a></span>
             </div>
             <div class="mobile-offcanvas-social">
-                <h4 class="mobile-offcanvas-sm-title">Redes Sociais</h4>
+                <h4 class="mobile-offcanvas-sm-title">Siga nos</h4>
                 <a href=""><i class="fa-brands fa-facebook"></i></a>
                 <a href=""><i class="fa-brands fa-instagram"></i></a>
                 <a href=""><i class="fa-brands fa-youtube"></i></a>
@@ -170,6 +162,10 @@
         </div>
     </div>
 
+    <div class="mobile-offcanvas-overlay "></div>
+
+    <main class="">
+
 
     <div class="mobile-offcanvas-overlay "></div>
 
@@ -177,7 +173,7 @@
      <div class="breadcrumb" data-bg-src="assets/images/hero/inner-pages-hero-bg.png">
         <div class="container">
             <div class="breadcrumb-heading">
-                <h1>contact </h1>
+                <h1>Contato</h1>
                 <ul class="breadcrumb-heading__items">
                     <li>
                         <a href="index.html">Home</a>
@@ -234,41 +230,37 @@
                     </div>
                 </div>
                 <div class="col-lg-7">
-                    <form action="#">
-                        <div class="contact-wrapper mb-40">
-                            <div class="row ">
-                                <div class="col-12 mb-20 wow img-custom-anim-zoom-out" data-wow-duration="1.5s" data-wow-delay=".2s">
-                                    <span class="contact-subtitle pb-10 d-inline-block">Orçamento</span>
-                                    <h4 class="section-top__title">Faça seu Orçamento</h4>
-                                </div>
-                                <div class="col-md-6 mb-20">
-                                    <input type="text" placeholder="Name" name="0">
-                                </div>
-                                <div class="col-md-6 mb-20">
-                                    <input type="email" placeholder="E-mail" name="0">
-                                </div>
-                                <div class="col-md-12 mb-20">
-                                    <input type="text" placeholder="Subject" name="0">
-                                </div>
-
-                                <div class="col-md-12 mb-20">
-                                    <textarea placeholder="Message" id="Message" cols="30" rows="5"></textarea>
-                                </div>
-
-                                <div class="col-md-12 mt-10">
-                                    <div class="btn-wrapper">
-                                        <a href="contact.html" class="theme-btn style5">Envie <span><i class="fa-regular fa-arrow-right"></i></span></a>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                    </form>
-
-
+    <form action="contact.html" method="POST">
+        <div class="contact-wrapper mb-40">
+            <div class="row">
+                <div class="col-12 mb-20 wow img-custom-anim-zoom-out" data-wow-duration="1.5s" data-wow-delay=".2s">
+                    <span class="contact-subtitle pb-10 d-inline-block">Orçamento</span>
+                    <h4 class="section-top__title">Faça seu Orçamento</h4>
                 </div>
+                <div class="col-md-6 mb-20">
+                    <input type="text" placeholder="Name" name="name" required>
+                </div>
+                <div class="col-md-6 mb-20">
+                    <input type="email" placeholder="E-mail" name="email" required>
+                </div>
+                <div class="col-md-12 mb-20">
+                    <input type="text" placeholder="Subject" name="subject">
+                </div>
+                <div class="col-md-12 mb-20">
+                    <textarea placeholder="Message" name="message" id="Message" cols="30" rows="5" required></textarea>
+                </div>
+                <div class="col-md-12 mt-10">
+                    <div class="btn-wrapper">
+                        <button type="submit" class="theme-btn style5">
+                            Envie <span><i class="fa-regular fa-arrow-right"></i></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
 
             </div>
         </div>
